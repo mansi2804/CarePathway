@@ -6,13 +6,19 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+import doc1 from "/src/assets/img/doc1.jpg";
+import doc2 from "/src/assets/img/doc2.jpg";
+import doc3 from "/src/assets/img/doc3.jpg";
+import doc4 from "/src/assets/img/doc4.jpg";
+import doc5 from "/src/assets/img/doc5.jpg";
+import doc6 from "/src/assets/img/doc6.jpg";
 
 const Doctors = () => {
   // Initial data for doctors
   const data = [
     {
       id: 1,
-      img: "/src/assets/img/doc1.jpg",
+      img: doc1,
       name: "Dr. Nirvan Patil",
       specialties: "Cardiologist",
       gender: "Male",
@@ -26,7 +32,7 @@ const Doctors = () => {
     },
     {
       id: 2,
-      img: "/src/assets/img/doc2.jpg",
+      img: doc2,
       name: "Dr. Mansi Patil",
       specialties: "Neurologist",
       gender: "Female",
@@ -40,7 +46,7 @@ const Doctors = () => {
     },
     {
       id: 3,
-      img: "/src/assets/img/doc3.jpg",
+      img: doc3,
       name: "Dr. Parth Patil",
       specialties: "Pediatrician",
       gender: "Male",
@@ -54,7 +60,7 @@ const Doctors = () => {
     },
     {
       id: 4,
-      img: "/src/assets/img/doc4.jpg",
+      img: doc4,
       name: "Dr. Akshata Patil",
       specialties: "Dermatologist",
       gender: "Female",
@@ -68,7 +74,7 @@ const Doctors = () => {
     },
     {
       id: 5,
-      img: "/src/assets/img/doc5.jpg",
+      img: doc5,
       name: "Dr. Mihir Patil",
       specialties: "Cardiologist",
       gender: "Male",
@@ -82,7 +88,7 @@ const Doctors = () => {
     },
     {
       id: 6,
-      img: "/src/assets/img/doc6.jpg",
+      img: doc6,
       name: "Dr. Narendra Patil",
       specialties: "Ophthalmologist",
       gender: "Male",
